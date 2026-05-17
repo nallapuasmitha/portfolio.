@@ -1,0 +1,67 @@
+export const PROJECTS = [
+  {
+    id: 'ml-1',
+    title: 'Iris Flower Prediction',
+    category: 'Machine Learning',
+    description: 'A classification model developed to predict iris species using morphological measurements. Integrated with a clean UI for real-time inference.',
+    image: '/src/assets/images/ml_iris_prediction_1779006640049.png',
+    tech: ['Python', 'Scikit-Learn', 'Numpy'],
+  },
+  {
+    id: 'ml-2',
+    title: 'House Price Prediction',
+    category: 'Machine Learning',
+    description: 'Regression analysis on housing datasets to predict property values based on various features and location metrics.',
+    image: 'https://picsum.photos/seed/house/800/600',
+    tech: ['Python', 'Pandas', 'Linear Regression'],
+  },
+  {
+    id: 'ml-3',
+    title: 'Ham or Spam Detection',
+    category: 'Natural Language Processing',
+    description: 'A text classification project that filters messages into ham or spam using advanced NLP techniques and feature extraction.',
+    image: 'https://picsum.photos/seed/spam/800/600',
+    tech: ['Python', 'NLP', 'NLTK'],
+  },
+  {
+    id: 'web-1',
+    title: 'Glow Skin Care',
+    category: 'Web Development',
+    description: 'A premium e-commerce platform for skincare products, featuring a minimalist aesthetic and seamless user experience.',
+    image: '/src/assets/images/skincare_website_1779006657244.png',
+    tech: ['React', 'Tailwind CSS', 'Framer Motion'],
+  },
+  {
+    id: 'web-2',
+    title: 'CineTicket Booking',
+    category: 'Web Development',
+    description: 'A comprehensive movie ticket booking system with seat selection, trailer integration, and dynamic scheduling.',
+    image: 'https://picsum.photos/seed/movie/800/600',
+    tech: ['React', 'Node.js', 'Express'],
+  },
+  {
+    id: 'devops-1',
+    title: 'CI/CD Pipeline Optimization',
+    category: 'DevOps',
+    description: 'Automated deployment workflows using modern DevOps tools to ensure reliable and fast software delivery cycles.',
+    image: '/src/assets/images/devops_abstract_1779006673344.png',
+    tech: ['Docker', 'Jenkins', 'Kubernetes'],
+  },
+  {
+    id: 'ai-1',
+    title: 'Smart Assistant Chatbot',
+    category: 'Artificial Intelligence',
+    description: 'An interactive chatbot capable of handling complex queries and providing contextual responses using NLP models.',
+    image: '/src/assets/images/chatbot_ui_1779006689538.png',
+    tech: ['Python', 'Transformers', 'Flask'],
+  },
+];
+
+export const SKILLS = [
+  { name: 'Python', level: 90 },
+  { name: 'NLP / NLM', level: 85 },
+  { name: 'Machine Learning', level: 88 },
+  { name: 'Web Development', level: 82 },
+  { name: 'DevOps', level: 75 },
+  { name: 'React.js', level: 80 },
+];
